@@ -30,7 +30,7 @@ var totalPages = 100;
 // Call function to get popular movies
 getMovies(APT_URL);
 
-document.getElementById("total").innerHTML = localStorage ? localStorage.length : 0;
+getTotalWatched();
 
 // Return most popular movies on main
 function getMovies(url) {
@@ -157,6 +157,7 @@ function getMovie(movie) {
     } = movie;
     let info = { id: id, title: title, poster_path: poster_path, release_date: release_date, overview: overview }
     localStorage.setItem(id, JSON.stringify(info));
+    getTotalWatched();
 }
 
 function checkIsWatched(id) {
@@ -164,4 +165,8 @@ function checkIsWatched(id) {
         document.getElementById(id).classList.add("disabled");
         document.getElementById(id).innerHTML = "WATCHED";
     }
+}
+
+function getTotalWatched() {
+    document.getElementById("total").innerHTML = localStorage ? localStorage.length : 0;
 }

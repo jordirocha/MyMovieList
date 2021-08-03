@@ -6,6 +6,10 @@ body{
     min-height: 100vh !important;
 }
 
+body::-webkit-scrollbar{
+	display: none;
+}
+
 .card {
 	overflow: hidden;
 	border-radius: 5px;
