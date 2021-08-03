@@ -1,0 +1,20 @@
+{
+  "name": "Node-MyMovieList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "Jordi Rocha",
+  "license": "ISC",
+  "description": "Personal proyect of movies list",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

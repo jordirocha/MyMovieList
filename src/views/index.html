@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include('partials/head.html')%>
+</head>
+
+<body>
+    <%- include('partials/navigation.html')%>
+        <div class="container-fluid">
+            <h1 id="title" class="text-white text-center mt-4">Most Popular</h1>
+            <div id="main" class="row d-flex justify-content-center">
+            </div>
+        </div>
+        <nav id="paging" class="mt-4 d-flex justify-content-center">
+            <ul class="pagination">
+                <li id="prev" class="page-item">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a id="current" class="page-link">1</a>
+                </li>
+                <li id="next" class="page-item">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <%- include('partials/footer.html')%>
+            <script src="/js/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include('partials/head.html')%>
+</head>
+
+<body>
+    <%- include('partials/navigation.html')%>
+        <div class="container-fluid mb-4">
+            <h1 id="title" class="text-white text-center mt-4">
+                <%= title %>
+            </h1>
+            <div id="main" class="row d-flex justify-content-center">
+            </div>
+        </div>
+        <%- include('partials/footer.html')%>
+
+
+            <script src="/js/watched.js"></script>
+</body>
+
+</html>
