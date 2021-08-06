@@ -17,7 +17,7 @@ On Linux installing package
     
     # apt install npm
 
-## Dependences
+## Dependences of app
 Need install module Express and EJS
     
     npm i express ejs
