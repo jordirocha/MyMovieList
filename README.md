@@ -1,0 +1,8 @@
+# Node-MyMovieList
+Application on you'll be able to add your watched movies in a list
+
+## Features
+- listing movies from movie api
+- searching movies by title
+- add movies to your favorite list
+- manage your favorite list
