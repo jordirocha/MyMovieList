@@ -7,3 +7,12 @@ Application on you'll be able to add your watched movies in a list
 - add movies to your favorite list
 - delete movies from your list
 - counter total movies
+
+## Start
+
+Example:
+
+    ./bootstrap.py
+    ./waf configure
+    ./waf
+    ./waf install
