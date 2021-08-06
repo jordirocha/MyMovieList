@@ -9,7 +9,7 @@ Application on you'll be able to add your watched movies in a list.
 - counter total movies
 
 ## Before to start
-Must install Node.js in your sistem. 
+Must install Node.js in your sistem.</br>
 On [Windows](https://nodejs.org/es/download/).
 
 On Linux installing package:
