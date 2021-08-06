@@ -9,10 +9,7 @@ Application on you'll be able to add your watched movies in a list
 - counter total movies
 
 ## Start
-
-Example:
-
-    ./bootstrap.py
+    .x/bootstrap.py
     ./waf configure
     ./waf
     ./waf install
