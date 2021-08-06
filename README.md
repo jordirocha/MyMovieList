@@ -18,9 +18,9 @@ On Linux installing package
     # apt install npm
 
 ## Dependences
-Need install module Express
+Need install module Express and EJS
     
-    npm i express
+    npm i express ejs
 
 ## To run app
     git clone https://github.com/jordirocha/Node-MyMovieList.git
