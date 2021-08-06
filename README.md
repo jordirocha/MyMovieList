@@ -9,4 +9,5 @@ Application on you'll be able to add your watched movies in a list
 - counter total movies
 
 ## Start
+After
     npm start
