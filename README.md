@@ -17,6 +17,11 @@ On Linux installing package
     
     # apt install npm
 
+## Dependences
+Express
+    
+    npm i express
+
 ## To run app
     git clone https://github.com/jordirocha/Node-MyMovieList.git
     npm start
