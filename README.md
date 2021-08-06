@@ -1,4 +1,4 @@
-# Node-MyMovieList
+# MyMovieList
 Application on you'll be able to add your watched movies in a list
 
 ## Features
