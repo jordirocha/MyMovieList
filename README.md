@@ -18,5 +18,8 @@ On Linux installing package
     # apt install npm
 
 ## To run app
+    git clone https://github.com/jordirocha/Node-MyMovieList.git
+    npm start
+    cd Node-MyMovieList/
     npm start
 After compile the app open your web browser paste: `http://localhost:3000`.
