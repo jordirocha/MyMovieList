@@ -11,4 +11,4 @@ Application on you'll be able to add your watched movies in a list
 ## To run app
     npm start
 
-After start the proyect open your web browser paste: `http://localhost:3000`.
+After compile the app open your web browser paste: `http://localhost:3000`.
