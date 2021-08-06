@@ -9,7 +9,6 @@ Application on you'll be able to add your watched movies in a list
 - counter total movies
 
 ## To run app
-After start the proyect open your web browser paste: `http://localhost:3000`.
-
     npm start
 
+After start the proyect open your web browser paste: `http://localhost:3000`.
