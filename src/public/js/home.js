@@ -45,6 +45,7 @@ function getMovies(url) {
             controlsPagination();
         } else {
             main.innerHTML = `<h3 class="text-white text-center">No results found.<h3>`;
+            paging.classList.add("d-none");
         }
     });
 }
@@ -78,10 +79,10 @@ function showMovies(data) {
 // On searching movie
 search.addEventListener("keyup", (e) => {
     e.preventDefault();
-    const searchTerm = search.value.replace(" ", "+");
+    const searchTerm = search.value;
     if (searchTerm) {
-        getMovies(SEARCH_URL + "&query=" + searchTerm + "&page=1");
         title.innerHTML = "Results of '" + searchTerm + "'";
+        getMovies(SEARCH_URL + "&query=" + searchTerm.replace(" ", "+") + "&page=1");
     } else {
         getMovies(APT_URL);
         title.innerHTML = "Most Popular";
@@ -113,7 +114,7 @@ function pageCall(page) {
 // Logic of next and previous
 function controlsPagination() {
     paging.classList.remove("d-none");
-    if (totalPages == 1 || totalPages == 0) {
+    if (totalPages == 0 || totalPages == 1) {
         prev.classList.add("disabled");
         next.classList.add("disabled");
         paging.classList.add("d-none");
