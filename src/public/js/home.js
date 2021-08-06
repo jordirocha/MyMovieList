@@ -27,15 +27,13 @@ var prevPage = 3;
 var currentUrl = "";
 var totalPages = 0;
 
-// Call function to get popular movies
+// Call function to get popular movies and total
 getMovies(APT_URL);
-
 getTotalWatched();
 
 // Return most popular movies on main
 function getMovies(url) {
     currentUrl = url;
-    console.log(currentUrl);
     fetch(url).then(res => res.json()).then(data => {
         if (data.results.length != 0) {
             showMovies(data.results);
@@ -55,7 +53,6 @@ function getMovies(url) {
 function showMovies(data) {
     main.innerHTML = "";
     data.forEach(movie => {
-        console.log(data);
         const { id, title, poster_path, vote_average } = movie;
         const movieCard = document.createElement("div");
         movieCard.classList.add("col-auto");
@@ -81,7 +78,7 @@ function showMovies(data) {
 // On searching movie
 search.addEventListener("keyup", (e) => {
     e.preventDefault();
-    const searchTerm = search.value;
+    const searchTerm = search.value.replace(" ", "+");
     if (searchTerm) {
         getMovies(SEARCH_URL + "&query=" + searchTerm + "&page=1");
         title.innerHTML = "Results of '" + searchTerm + "'";
@@ -107,7 +104,9 @@ prev.addEventListener("click", () => {
 
 // We add the page parameter
 function pageCall(page) {
-    currentUrl = currentUrl.substring(0, currentUrl.length - 1) + page;
+    let substring = currentUrl.split('=');
+    substring[3] = page;
+    currentUrl = substring.join("=");
     getMovies(currentUrl);
 }
 
@@ -130,6 +129,7 @@ function controlsPagination() {
     }
 }
 
+// Gives us the information about specific movie
 function addWatched(id) {
     fetch(BASE_URL + "/movie/" + id + "?" + API_KEY).then((res) => res.json()).then((movie) => {
         document.getElementById(id).classList.add("disabled");
@@ -138,6 +138,7 @@ function addWatched(id) {
     });
 }
 
+// Add the movie along to ID
 function getMovie(movie) {
     const {
         id,
@@ -151,6 +152,8 @@ function getMovie(movie) {
     getTotalWatched();
 }
 
+
+// Depending if is in our localstorage, enable o disable de button
 function checkIsWatched(id) {
     if (id in localStorage) {
         document.getElementById(id).classList.add("disabled");
@@ -158,10 +161,12 @@ function checkIsWatched(id) {
     }
 }
 
+// Gives total movies in localstorage
 function getTotalWatched() {
     document.getElementById("total").innerHTML = localStorage ? localStorage.length : 0;
 }
 
+// Depending the rate change the color
 function getColor(note) {
     if (note >= 8) {
         return "text-success";
