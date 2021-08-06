@@ -23,7 +23,7 @@ Need install module Express and EJS
     npm i express ejs
 
 ## To run app
-    git clone https://github.com/jordirocha/Node-MyMovieList.git
-    cd Node-MyMovieList/
+    git clone https://github.com/jordirocha/MyMovieList.git
+    cd MyMovieList/
     npm start
 After compile the app open your web browser paste: `http://localhost:3000`.
