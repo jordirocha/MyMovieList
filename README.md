@@ -3,8 +3,8 @@
     <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank">
 <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" width="650" /></a>
 </p>
-Application on you'll be able to add your watched movies in a list.
-Live <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank">demo</a>.
+Application on you'll be able to add your watched movies in a list.</br>
+Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank">here</a>.
 
 ## Features
 - listing movies from movie api
