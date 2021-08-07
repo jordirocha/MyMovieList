@@ -16,10 +16,13 @@ Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"
 Must install Node.js in your sistem:</br>
 
 On [Windows](https://nodejs.org/es/download/)</br>
-On [macOS](https://nodejs.org/es/download/)</br>
+On macOS, with `brew`</br>
+    
+    brew install node
+    
 On Linux, installing by package
     
-    # apt install npm
+    $ apt install npm
 
 ## To run app
     git clone https://github.com/jordirocha/MyMovieList.git
