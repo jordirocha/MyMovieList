@@ -47,6 +47,7 @@ function getMovies(url) {
             controlsPagination();
         } else {
             main.innerHTML = `<h3 class="text-white text-center">No results found.<h3>`;
+            paging.classList.remove("d-none");
         }
     });
 }
