@@ -8,6 +8,7 @@ Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"
 ## Features
 - listing movies from movie api
 - searching movies by title
+- on searching movies will be displayed
 - add movies to your favorite list
 - delete movies from your list
 - counter total movies
