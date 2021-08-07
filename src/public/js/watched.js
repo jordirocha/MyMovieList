@@ -7,13 +7,15 @@ const title = document.getElementById("title");
 // Generate cards
 const main = document.getElementById("main");
 
+// Will be shown if we don't' have movies
 if (localStorage.length == 0) {
     main.innerHTML = `<h3 class="text-center text-white">Don't have movies!</h3>`;
 }
 
+// Call total
 getTotalWatched();
 
-
+// For each item in our localStorage create a card
 Object.keys(localStorage).forEach(function (key) {
     let film = JSON.parse(localStorage.getItem(key));
     const movieElement = document.createElement("div");
@@ -36,12 +38,13 @@ Object.keys(localStorage).forEach(function (key) {
     main.appendChild(movieElement);
 });
 
-
+// Depending if is in our localstorage
 function deleteWatched(id) {
     localStorage.removeItem(id);
     location.reload(true);
 }
 
+// Depending the rate change the color
 function getColor(note) {
     if (note >= 8) {
         return "text-success";
@@ -51,6 +54,7 @@ function getColor(note) {
     return "text-danger"
 }
 
+// Gives total movies in localstorage
 function getTotalWatched() {
     document.getElementById("total").innerHTML = localStorage ? localStorage.length : 0;
 }
