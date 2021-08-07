@@ -1,4 +1,4 @@
-# MyMovieList <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/logo.png" height="40"/>
+# MyMovieList <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/logo.png" height="35"/>
 <p align="center">
 <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" width="650" />
 </p>
