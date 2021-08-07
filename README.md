@@ -1,6 +1,6 @@
 # MyMovieList <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/logo.png" height="35"/>
 <p align="center">
-    <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="__blank">
+    <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank">
 <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" width="650" /></a>
 </p>
 Application on you'll be able to add your watched movies in a list.
