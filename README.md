@@ -1,6 +1,6 @@
 # MyMovieList
 <p align="center">
-<img src="https://res.cloudinary.com/dndp8567v/image/upload/v1608640031/MyMoveListDesktop_f2fa3c32de.gif" />
+<img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" />
 </p>
 Application on you'll be able to add your watched movies in a list.
 
