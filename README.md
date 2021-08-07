@@ -1,4 +1,5 @@
 # MyMovieList
+<img src="https://img.shields.io/twitter/follow/d_fisherWebDev?style=social" />
 Application on you'll be able to add your watched movies in a list.
 
 ## Features
