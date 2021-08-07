@@ -22,4 +22,4 @@ On Linux, installing by package
     cd MyMovieList/
     npm i express ejs
     npm start
-After compile the app open your web browser paste: `http://localhost:3000`.
+After compiling open your web browser and paste: `http://localhost:3000`.
