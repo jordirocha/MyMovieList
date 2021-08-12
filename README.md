@@ -5,6 +5,31 @@
 Application on you'll be able to add your watched movies in a list.</br>
 Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"><strong>here</strong></a>.
 
+## Project Directories
+    ├── package.json
+    ├── package-lock.json
+    ├── README.md
+    └── src
+        ├── index.js
+        ├── public
+        │   ├── css
+        │   │   └── main.css
+        │   ├── img
+        │   │   ├── demo.gif
+        │   │   ├── icon.png
+        │   │   └── logo.png
+        │   └── js
+        │       ├── home.js
+        │       └── watched.js
+        ├── routes
+        │   └── index.js
+        └── views
+            ├── index.html
+            ├── partials
+            │   ├── footer.html
+            │   ├── head.html
+            │   └── navigation.html
+            └── watched.html
 ## Features
 - listing movies from movie api
 - searching movies by title
