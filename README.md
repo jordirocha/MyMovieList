@@ -1,3 +1,4 @@
+<img align="center" src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/logo.png" width="50" />
 # MyMovieList
 <p align="center">
 <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" width="650" />
