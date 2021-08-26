@@ -1,3 +1,18 @@
+<p align="center">
+  <a href="https://mymovielistapp-nodejs.herokuapp.com/">
+    <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/logo.png" alt="Logo" width="140" height="140">
+  </a>
+
+  <h3 align="center">MyMovieList</h3>
+
+  <p align="center">
+    Web on you will be able to add all your watched movies in a list.
+    <br />
+    <br />
+    <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank">View Demo</a>
+  </p>
+</p>
+
 # MyMovieList
 <p align="center">
 <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" width="650" />
