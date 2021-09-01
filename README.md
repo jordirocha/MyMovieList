@@ -92,4 +92,4 @@ After compiling open your web browser and paste: `http://localhost:3000`.
 ## Contact
 
 Jordi Rocha - [LinkedIn](https://es.linkedin.com/in/jordirocharocha) - jordirocharocha@gmail.com </br>
-Project Link: [https://github.com/jordirocha/GameApp](https://github.com/jordirocha/MyMovieList/)
+Project Link: [https://github.com/jordirocha/MyMovieList](https://github.com/jordirocha/MyMovieList/)
