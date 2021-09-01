@@ -13,14 +13,25 @@
   </p>
 </p>
 
-# MyMovieList
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [About the Project](#about-the-project)
+  * [Built With](#built-with)
+  * [Project Directories](#project-directories)
+* [Getting Started](#getting-started)
+  * [Dependencies from Project](#dependencies-from-project)
+  * [Run app](#run-app)
+* [Contact](#contact)
+
+### About the Project
 <p align="center">
 <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" width="650" />
 </p>
 Application on you'll be able to add your watched movies in a list.</br>
 Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"><strong>here</strong></a>.
 
-## Features
+### Features
 - listing movies from movie api
 - searching movies by title
 - on searching movies will be displayed
@@ -28,7 +39,7 @@ Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"
 - delete movies from your list
 - counter total movies
 
-## Project Directories
+### Project Directories
     ├── package.json
     ├── package-lock.json
     ├── README.md
@@ -55,9 +66,10 @@ Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"
             └── watched.html
 
 
-## Before to start
+## Getting Started
 Must install Node.js in your sistem:</br>
 
+### Requisites
 On Windows, <a href="https://nodejs.org/es/download/">here</a></br></br>
 On macOS, with `brew`</br>
     
@@ -67,7 +79,7 @@ On Linux, installing by package
     
     $ apt install npm
 
-## To run app
+### Run App
     git clone https://github.com/jordirocha/MyMovieList.git
     cd MyMovieList/
     npm i express ejs
