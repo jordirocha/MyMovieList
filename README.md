@@ -25,12 +25,11 @@
   * [Run App](#run-app)
 * [Contact](#contact)
 
-### About the Project
+## About the Project
 <p align="center">
 <img src="https://github.com/jordirocha/MyMovieList/blob/main/src/public/img/demo.gif" width="650" />
 </p>
 Application on you'll be able to add your watched movies in a list.</br>
-Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"><strong>here</strong></a>.
 
 ### Features
 - listing movies from movie api
