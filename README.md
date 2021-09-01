@@ -69,7 +69,10 @@ Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"
 ## Getting Started
 Must install Node.js in your sistem:</br>
 
-### Requisites
+### Prerequisites
+Must install <a href="https://nodejs.org/es/download/">`Node.js`</a> on your sistem.</br>
+
+### Installation
 On Windows, <a href="https://nodejs.org/es/download/">here</a></br></br>
 On macOS, with `brew`</br>
     
@@ -85,3 +88,8 @@ On Linux, installing by package
     npm i express ejs
     npm start
 After compiling open your web browser and paste: `http://localhost:3000`.
+
+## Contact
+
+Jordi Rocha - [LinkedIn](https://es.linkedin.com/in/jordirocharocha) - jordirocharocha@gmail.com
+Project Link: [https://github.com/jordirocha/GameApp](https://github.com/jordirocha/GameApp/)
