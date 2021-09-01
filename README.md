@@ -20,8 +20,9 @@
   * [Built With](#built-with)
   * [Project Directories](#project-directories)
 * [Getting Started](#getting-started)
-  * [Dependencies from Project](#dependencies-from-project)
-  * [Run app](#run-app)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Run App](#run-app)
 * [Contact](#contact)
 
 ### About the Project
@@ -67,7 +68,7 @@ Live demo <a href="https://mymovielistapp-nodejs.herokuapp.com/" target="_blank"
 
 
 ## Getting Started
-Must install Node.js in your sistem:</br>
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 Must install <a href="https://nodejs.org/es/download/">`Node.js`</a> on your sistem.</br>
@@ -91,5 +92,5 @@ After compiling open your web browser and paste: `http://localhost:3000`.
 
 ## Contact
 
-Jordi Rocha - [LinkedIn](https://es.linkedin.com/in/jordirocharocha) - jordirocharocha@gmail.com
+Jordi Rocha - [LinkedIn](https://es.linkedin.com/in/jordirocharocha) - jordirocharocha@gmail.com </br>
 Project Link: [https://github.com/jordirocha/GameApp](https://github.com/jordirocha/GameApp/)
